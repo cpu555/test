@@ -4,7 +4,6 @@ fun main() {
     displayOptions()
     var answer = readln()
     while (answer != "3") {
-        println(anagramsMap)
         when (answer) {
             "1" -> runChecker(anagramsMap)
             "2" -> runAnagramsExtractor(anagramsMap)
